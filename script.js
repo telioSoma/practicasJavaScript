@@ -34,10 +34,10 @@ function highlight(e) {
   else element.className += "hilite";
 }
 function debug(msg) {
-  var log = $("#debuglog");
-  if(!log){
-    log = $("<div id='debuglog'><h1>Debug Log</h1></div>");
+  var log = $("#debugLog");
+  if(log.length==0){
+    log = $("<div id='debugLog'><h1>Debug Log</h1></div>");
     log.appendTo(document.body);
-  }
+  } 
   log.append($("<pre/>").text(msg));
 }
