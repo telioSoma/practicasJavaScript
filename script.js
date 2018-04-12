@@ -38,6 +38,6 @@ function debug(msg) {
   if(log.length==0){
     log = $("<div id='debugLog'><h1>Debug Log</h1></div>");
     log.appendTo(document.body);
-  } 
+  }
   log.append($("<pre/>").text(msg));
 }
