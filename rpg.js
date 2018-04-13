@@ -72,7 +72,7 @@ function Minion(name) {
         intellect: 1,
         strength: 1,
         agility: 1,
-        xp : 3       
+        xp : 3
     });
 }
 

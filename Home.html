@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <title>Pruebas JavaScript</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>body{
+      margin : 0;
+      overflow: hidden;
+      }</style>
   </head>
   <body>
-    <script src="script.js"></script>
-    <script src="rpg.js"></script>
+    <canvas id="render"></canvas>
     <button id="boton1" onclick="hide(this.id ,true);
         debugLog('hide button1')">
           Hide 1
@@ -16,5 +19,7 @@
         debugLog('hide button2')">
           Hide 2
     </button>
+    <script src="script.js"></script>
+    <script src="rpg.js"></script>    
   </body>
 </html>
